@@ -7,11 +7,11 @@
         class="w-full absolute z-20 inset-0 md:relative md:w-1/2 text-center flex flex-col justify-center hero-caption"
       >
         <h1 class="text-3xl md:text-5xl leading-tight font-semibold">
-          Ruang Impian Anda <br class="" />Hadir di Daysee
+          Temukan Barang Antik <br class="" />Anda di Daysee
         </h1>
         <h2 class="px-8 text-base md:px-0 md:text-lg my-6 tracking-wide">
-          Kami menyediakan furniture berkelas yang
-          <br class="hidden lg:block" />membuat ruangan terasa homey
+          Kami menyediakan barang-barang antik yang 
+          <br class="hidden lg:block" />menarik dengan harga terjangkau
         </h2>
         <div>
           <a
@@ -42,7 +42,7 @@
             ></button>
           </div>
           <img
-            src="/frontend/images/content/image-section-1.png"
+            src="/frontend/images/content/banner.jpg"
             alt="hero 1"
             class="absolute inset-0 md:relative w-full h-full object-cover object-center"
           />
@@ -56,7 +56,7 @@
       <div class="container mx-auto">
         <div class="flex flex-start mb-4">
           <h3 class="text-2xl capitalize font-semibold">
-            Telusuri Ruanganmu <br class="" />Yang Kami Rancang Untuk Anda
+            Telusuri Barang Antikmu <br class="" />Yang Kami Rancang Untuk Anda
           </h3>
         </div>
         <div class="grid grid-rows-2 grid-cols-9 gap-4">
@@ -66,7 +66,7 @@
           >
             <div class="card-shadow rounded-xl">
               <img
-                src="./frontend/images/content/image-catalog-1.png"
+                src="./frontend/images/content/money.png"
                 alt=""
                 class="w-full h-full object-cover object-center overlay overflow-hidden rounded-xl"
               />
@@ -74,7 +74,7 @@
             <div
               class="overlay left-0 top-0 bottom-0 flex justify-center flex-col pl-48 md:pl-72"
             >
-              <h5 class="text-lg font-semibold">Ruang Keluarga</h5>
+              <h5 class="text-lg font-semibold">Mata Uang</h5>
               <span class="">18.309 items</span>
             </div>
             <a href="{{ route('details', 'slug') }}" class="stretched-link">
@@ -86,7 +86,7 @@
           >
             <div class="card-shadow rounded-xl">
               <img
-                src="./frontend/images/content/image-catalog-3.png"
+                src="./frontend/images/content/table.png"
                 alt=""
                 class="w-full h-full object-cover object-center overlay overflow-hidden rounded-xl"
               />
@@ -106,7 +106,7 @@
           >
             <div class="card-shadow rounded-xl">
               <img
-                src="./frontend/images/content/image-catalog-4.png"
+                src="./frontend/images/content/fashion.png"
                 alt=""
                 class="w-full h-full object-cover object-center overlay overflow-hidden rounded-xl"
               />
@@ -114,7 +114,7 @@
             <div
               class="overlay right-0 left-0 top-0 bottom-0 md:bottom-auto flex justify-center md:items-center flex-col pl-48 md:pl-0 pt-0 md:pt-12"
             >
-              <h5 class="text-lg font-semibold">Kamar Tidur</h5>
+              <h5 class="text-lg font-semibold">Fashion</h5>
               <span class="">22.094 items</span>
             </div>
             <a href="{{ route('details', 'slug') }}" class="stretched-link">
@@ -124,7 +124,7 @@
           <div class="relative col-span-9 row-span-1 md:col-span-4 card">
             <div class="card-shadow rounded-xl">
               <img
-                src="./frontend/images/content/image-catalog-2.png"
+                src="./frontend/images/content/toy.png"
                 alt=""
                 class="w-full h-full object-cover object-center overlay overflow-hidden rounded-xl"
               />
@@ -132,7 +132,7 @@
             <div
               class="overlay left-0 top-0 bottom-0 flex justify-center flex-col pl-48 md:pl-72"
             >
-              <h5 class="text-lg font-semibold">Ruang Anak-Anak</h5>
+              <h5 class="text-lg font-semibold">Mainan</h5>
               <span class="">837 items</span>
             </div>
             <a href="{{ route('details', 'slug') }}" class="stretched-link">
@@ -149,7 +149,7 @@
       <div class="container mx-auto mb-4">
         <div class="flex justify-center text-center mb-4">
           <h3 class="text-2xl capitalize font-semibold">
-            Baru Saja Tiba <br class="" />Edisi Musim Panas Ini Untukmu
+            Baru Saja Tiba <br class="" />Edisi Favorit Ini Untukmu
           </h3>
         </div>
       </div>
