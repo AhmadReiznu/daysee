@@ -21,6 +21,7 @@ use App\Http\Controllers\UserController;
 */
 
 Route::get('/', [FrontendController::class, 'index'])->name('index');
+Route::get('/katalog', [FrontendController::class, 'katalog'])->name('katalog');
 Route::get('/details/{slug}', [FrontendController::class, 'details'])->name('details');
 
 Route::group(['middleware' => ['auth:sanctum', 'verified']], function () {

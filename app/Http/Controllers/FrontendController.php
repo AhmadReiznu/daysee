@@ -22,12 +22,19 @@ class FrontendController extends Controller
         return view('pages.frontend.index', compact('products'));
     }
 
+    public function katalog(Request $request)
+    {
+        $products = Product::with(['galleries'])->latest()->get();
+
+        return view('pages.frontend.katalog', compact('products'));
+    }
+
     public function details(Request $request, $slug)
     {
         $product = Product::with(['galleries'])->where('slug', $slug)->firstOrFail();
         $recommendations = Product::with(['galleries'])->inRandomOrder()->limit(4)->get();
 
-        return view('pages.frontend.details', compact('product','recommendations'));
+        return view('pages.frontend.details', compact('product', 'recommendations'));
     }
 
     public function cartAdd(Request $request, $id)
@@ -66,19 +73,19 @@ class FrontendController extends Controller
         // Add to Transaction data
         $data['users_id'] = Auth::user()->id;
         $data['total_price'] = $carts->sum('product.price');
-    
+
         // Create Transaction
         $transaction = Transaction::create($data);
 
         // Create Transaction item
-        foreach($carts as $cart) {
+        foreach ($carts as $cart) {
             $items[] = TransactionItem::create([
                 'transactions_id' => $transaction->id,
                 'users_id' => $cart->users_id,
                 'products_id' => $cart->products_id,
             ]);
         }
-        
+
         // Delete cart after transaction
         Cart::where('users_id', Auth::user()->id)->delete();
 
@@ -98,7 +105,7 @@ class FrontendController extends Controller
                 'first_name'    => $transaction->name,
                 'email'         => $transaction->email
             ),
-            'enabled_payments' => array('gopay','bank_transfer'),
+            'enabled_payments' => array('gopay', 'bank_transfer'),
             'vtweb' => array()
         );
 
@@ -111,11 +118,9 @@ class FrontendController extends Controller
 
             // Redirect ke halaman midtrans
             return redirect($paymentUrl);
-        }
-        catch (Exception $e) {
+        } catch (Exception $e) {
             return $e;
         }
-
     }
 
     public function success(Request $request)

@@ -3,11 +3,11 @@
     <div class="border-t border-b border-gray-200 py-12 mt-16 px-4">
     <div class="flex justify-center mb-8">
         <img
-        src="/frontend/images/content/main logo.png"
+        src="/frontend/images/content/logo utama.png"
         alt="Luxspace | Fulfill your house with beautiful furniture"
         />
     </div>
-    <aside class="container mx-auto">
+    {{-- <aside class="container mx-auto">
         <div class="flex flex-wrap -mx-4 justify-center">
         <div class="px-4 w-full md:w-2/12 mb-4 md:mb-0 accordion">
             <h5 class="text-lg font-semibold mb-2 relative">Overview</h5>
@@ -86,7 +86,7 @@
             </form>
         </div>
         </div>
-    </aside>
+    </aside> --}}
     </div>
 </section>
 <!-- END: ASIDE MENU -->
@@ -94,7 +94,7 @@
 <!-- START: FOOTER -->
 <footer class="flex text-center px-4 py-8 justify-center">
     <p class="text-sm">
-    Copyright 2022 • All Rights Reserved Daysee
+    Copyright 2022 • All Rights Reserved L'Satyr
     </p>
 </footer>
 <!-- END: FOOTER -->

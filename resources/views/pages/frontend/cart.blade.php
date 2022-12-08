@@ -177,13 +177,13 @@
                     <div class="px-2 w-6/12 h-24 mb-4">
                       <button
                         type="button"
-                        data-value="fedex"
+                        data-value="JNT"
                         data-name="courier"
                         class="border border-gray-200 focus:border-red-200 flex items-center justify-center rounded-xl bg-white w-full h-full focus:outline-none"
                       >
                         <img
-                          src="/frontend/images/content/logo-fedex.svg"
-                          alt="Logo Fedex"
+                          src="/frontend/images/content/logo jnt.png"
+                          alt="Logo JNT"
                           class="object-contain max-h-full"
                         />
                       </button>
@@ -196,8 +196,8 @@
                         class="border border-gray-200 focus:border-red-200 flex items-center justify-center rounded-xl bg-white w-full h-full focus:outline-none"
                       >
                         <img
-                          src="/frontend/images/content/logo-dhl.svg"
-                          alt="Logo dhl"
+                          src="/frontend/images/content/logo jne.jpg"
+                          alt="Logo JNE"
                           class="object-contain max-h-full"
                         />
                       </button>
@@ -227,26 +227,26 @@
                     <div class="px-2 w-6/12 h-24 mb-4">
                       <button
                         type="button"
-                        data-value="mastercard"
+                        data-value="ovo"
                         data-name="payment"
                         class="border border-gray-200 focus:border-red-200 flex items-center justify-center rounded-xl bg-white w-full h-full focus:outline-none"
                       >
                         <img
-                          src="/frontend/images/content/logo-mastercard.svg"
-                          alt="Logo mastercard"
+                          src="/frontend/images/content/logo ovo.png"
+                          alt="Logo OVO"
                         />
                       </button>
                     </div>
                     <div class="px-2 w-6/12 h-24 mb-4">
                       <button
                         type="button"
-                        data-value="bitcoin"
+                        data-value="jenius"
                         data-name="payment"
-                        class="border border-gray-200 focus:border-red-200 flex items-center justify-center rounded-xl bg-white w-full h-full focus:outline-none"
+                        class="border border-gray-200 focus:border-red-200 flex items-center justify-center rounded-xl bg-blue-700 w-full h-full focus:outline-none"
                       >
                         <img
-                          src="/frontend/images/content/logo-bitcoin.svg"
-                          alt="Logo bitcoin"
+                          src="/frontend/images/content/logo jenius.png"
+                          alt="Logo jenius"
                           class="object-contain max-h-full"
                         />
                       </button>
@@ -254,13 +254,13 @@
                     <div class="px-2 w-6/12 h-24 mb-4">
                       <button
                         type="button"
-                        data-value="american-express"
+                        data-value="dana"
                         data-name="payment"
                         class="border border-gray-200 focus:border-red-200 flex items-center justify-center rounded-xl bg-white w-full h-full focus:outline-none"
                       >
                         <img
-                          src="/frontend/images/content/logo-american-express.svg"
-                          alt="Logo american-logo-american-express"
+                          src="/frontend/images/content/logo dana.png"
+                          alt="Logo dana"
                         />
                       </button>
                     </div>

@@ -2,7 +2,7 @@
 <html class="no-js" lang="">
   <head>
     <meta charset="utf-8" />
-    <title>Daysee</title>
+    <title>L'Satyr</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
@@ -15,7 +15,7 @@
     <link rel="apple-touch-icon" href="{{ url('/frontend/images/content/main logo.png') }}" />
     <!-- Place favicon.ico in the root directory -->
 
-    <link rel="stylesheet" href="{{ url('/frontend/css/main.css') }}" />
+    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="icon" href="{{ url('/frontend/images/content/main logo.png') }}" />
 
     <meta name="theme-color" content="#000" />

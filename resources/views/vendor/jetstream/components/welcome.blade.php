@@ -4,11 +4,11 @@
     </div>
 
     <div class="mt-8 text-2xl">
-        Selamat Datang di Dashboard Daysee
+        Selamat Datang di Dashboard L'Satyr
     </div>
 
     <div class="mt-6 text-gray-500">
-        Online Shop Furniture - Daysee
+        Online Shop Furniture - L'Satyr
     </div>
 </div>
 

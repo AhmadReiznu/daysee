@@ -5,8 +5,7 @@
           <div class="w-56 items-center flex">
             <a href="{{ route('index') }}">
               <img
-                src="/frontend/images/content/main logo.png"
-                alt="Luxspace | Fulfill your house with beautiful furniture"
+                src="/frontend/images/content/logo utama.png"
               />
             </a>
           </div>
@@ -22,18 +21,8 @@
                 >
               </li>
               <li class="mx-3 py-6 md:py-0">
-                <a href="#" class="text-black {{ \Route::current()->getName() == 'index' ? 'md:text-white' : 'md:text-black' }} hover:underline"
-                  >Tentang</a
-                >
-              </li>
-              <li class="mx-3 py-6 md:py-0">
-                <a href="#" class="text-black {{ \Route::current()->getName() == 'index' ? 'md:text-white' : 'md:text-black' }} hover:underline"
+                <a href="/katalog" class="text-black {{ \Route::current()->getName() == 'index' ? 'md:text-white' : 'md:text-black' }} hover:underline"
                   >Katalog</a
-                >
-              </li>
-              <li class="mx-3 py-6 md:py-0">
-                <a href="#" class="text-black {{ \Route::current()->getName() == 'index' ? 'md:text-white' : 'md:text-black' }} hover:underline"
-                  >Kontak</a
                 >
               </li>
               @auth
